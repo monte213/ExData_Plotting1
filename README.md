@@ -1,6 +1,6 @@
 ## Introduction
 
-First course project for the Exploratory Data Analysis course offering. Goal of the project is to construct various plots in R using data from the provided dataset.
+Course project #1 for the Exploratory Data Analysis course offering. Goal of the project is to construct various plots in R using data from the provided dataset.
 
 
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]

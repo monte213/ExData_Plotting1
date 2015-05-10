@@ -14,6 +14,7 @@ data$DateTime <- as.POSIXct(paste(data$Date, data$Time))
 strptime(data$DateTime, "%d/%m/%y %H:%M:%S")
 
 #override the global parameter to make it 2x2
+#note this affects other plots for assignment
 par(mfcol=c(2,2))
 
 #plots from 2 and 3

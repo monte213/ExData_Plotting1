@@ -6,6 +6,7 @@ data$Date<-as.Date(data$Date, format="%d/%m/%Y")
 data<-subset(data, Date==as.Date("01/02/2007", format="%d/%m/%Y")| Date==as.Date("02/02/2007", format="%d/%m/%Y"))
 
 #adding this because testing plot 4 keeps overriding global variable
+#probably wouldnt be needed in most situations
 par(mfcol=c(1,1))
 
 #replacing missing variables with NA
